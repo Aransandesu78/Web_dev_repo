@@ -1,4 +1,4 @@
-# Web_dev
+# Web_dev_repo
 
 Bienvenue dans le dépôt du développement web pour notre projet RoboCup.
 
