@@ -1,0 +1,89 @@
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    color: white;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    background-color: #0046ad;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+.header h1 {
+    margin: 0;
+    color: white;
+}
+
+.camera-section {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.camera-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.camera {
+    background-color: black;
+    width: 150px;
+    height: 200px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+}
+
+.controls-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    margin-top: 20px;
+}
+
+.flipper-btn {
+    background-color: #ffaa00;
+    border: none;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.slider-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider {
+    width: 150px;
+    margin: 0 10px;
+}
+
+.record-btn {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
+
+.record-btn button {
+    background-color: red;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    border: none;
+    cursor: pointer;
+}
