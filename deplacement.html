@@ -15,7 +15,7 @@
 <body>
 
     <div class="header">
-        <h1 ROBOCUP> </h1>
+        <h1>ROBOCUP</h1>
     </div>
         
     <div class="camera-section">
@@ -34,25 +34,32 @@
 
 
     <div class="control-panel">
+        <div class="flipper-controls">
+            <div class="slider-container">
+                
+                <div class="slider-controls">
+                    <label for="Flipper Front Left">
+                        Flipper Front Left
+                    </label>
+                    <input type="range" class="slider" min="0" max="100" value="50">
+                </div>
 
-        <div class="flipper controls">
-            <label for="Flipper Front Left">
-                Flipper Front Left
-            </label>
-            <label for="Flipper Front Right">
-                Flipper Front Right
-            </label>
-            <label for="Flipper Back">
-                Flipper Back
-            </label>
+                <div class="slider-controls">
+                    <label for="Flipper Front Right">
+                        Flipper Front Right
+                    </label>
+                    <input type="range" class="slider" min="0" max="100" value="50">
+                </div>
+
+                <div class="slider-controls">
+                    <label for="Flipper Back">
+                        Flipper Back
+                    </label>
+                    <input type="range" class="slider" min="0" max="100" value="50">
+                </div>
+            
+            </div>
         </div>
-        
-        <div class="slider container">
-            <input type="range" class="slider" min="0" max="100" value="50">
-            <input type="range" class="slider" min="0" max="100" value="50">
-            <input type="range" class="slider" min="0" max="100" value="50">
-        </div>
-    
     </div >
 
     <div class="record-button">
